@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terrametal SRL - Prelucrări Mecanice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            background-color: #444;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 5px;
+        }
+        nav a:hover {
+            background-color: #666;
+            border-radius: 5px;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1000px;
+            margin: auto;
+            background: white;
+            box-shadow: 0px 0px 10px gray;
+        }
+        h2 {
+            color: #333;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .gallery img {
+            width: 48%;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        .testimonials {
+            background: #ddd;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        .testimonials p {
+            font-style: italic;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background: #333;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .contact-form button:hover {
+            background: #555;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Terrametal SRL</h1>
+        <p>Prelucrări mecanice prin așchiere</p>
+    </header>
+
+    <nav>
+        <a href="#despre-noi">Despre Noi</a>
+        <a href="#servicii">Servicii</a>
+        <a href="#galerie">Galerie</a>
+        <a href="#testimoniale">Testimoniale</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="despre-noi">
+            <h2>Despre Noi</h2>
+            <p>Fondată în 2006, Terrametal SRL este specializată în prelucrarea mecanică prin așchiere a pieselor metalice de precizie. Cu echipamente moderne și o echipă experimentată, oferim produse de calitate pentru diverse industrii.</p>
+        </section>
+
+        <section id="servicii">
+            <h2>Servicii</h2>
+            <ul>
+                <li>Prelucrare CNC</li>
+                <li>Tăiere și sudare metalică</li>
+                <li>Fabricarea pieselor personalizate</li>
+                <li>Prelucrare oțel, aluminiu, bronz</li>
+            </ul>
+        </section>
+
+        <section id="galerie">
+            <h2>Galerie Foto</h2>
+            <div class="gallery">
+                <img src="https://source.unsplash.com/400x300/?metal,workshop" alt="Prelucrare metalică">
+                <img src="https://source.unsplash.com/400x300/?cnc,machine" alt="Mașină CNC">
+                <img src="https://source.unsplash.com/400x300/?lathe,machine" alt="Strung în acțiune">
+                <img src="https://source.unsplash.com/400x300/?factory,workshop" alt="Fabrică de prelucrare">
+            </div>
+        </section>
+
+        <section id="testimoniale" class="testimonials">
+            <h2>Ce spun clienții noștri</h2>
+            <p>"Calitate excelentă a pieselor livrate! Am colaborat cu Terrametal de mai mulți ani și suntem foarte mulțumiți." - <strong>Ion Popescu</strong></p>
+            <p>"Profesionalism și livrări la timp. Recomand!" - <strong>Maria Ionescu</strong></p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Ne puteți contacta pentru oferte personalizate:</p>
+            <ul>
+                <li><strong>Adresă:</strong> Sat Chintelnic, Comuna Șieu-Măgheruș, Nr. 292, Bistrița-Năsăud</li>
+                <li><strong>Telefon:</strong> 0263-234711</li>
+                <li><strong>Email:</strong> office@terrametal.ro</li>
+            </ul>
+
+            <h3>Solicită o ofertă</h3>
+            <form class="contact-form">
+                <input type="text" placeholder="Nume" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Mesajul dvs." rows="5" required></textarea>
+                <button type="submit">Trimite</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Terrametal SRL. Toate drepturile rezervate.</p>
+    </footer>
+
+</body>
+</html>
